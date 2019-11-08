@@ -1,0 +1,12 @@
+/* estilos de cabecera */
+header{
+	background-color: #252525;
+	padding-top: 15px;
+}
+	.bar{
+		background-color: #252525;
+		padding-top: 15px;
+	}
+		header div div div label{
+			padding-top: 15px;
+		}
