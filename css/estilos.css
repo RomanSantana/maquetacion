@@ -1,8 +1,11 @@
 /* estilos de cabecera */
+
+/*  creamos la barra gris del header*/
 header{
 	background-color: #252525;
 	padding-top: 15px;
 }
+/* nos ayuda a centrar la imagen y el texto*/
 	.bar{
 		background-color: #252525;
 		padding-top: 15px;
@@ -10,3 +13,9 @@ header{
 		header div div div label{
 			padding-top: 15px;
 		}
+/* insertaremos imagen de fondo del header en segunda fila*/
+			#img-fondo{
+				background-image: url(../img/Compu.png);
+				width: 100%;
+				height: 100%;				
+			}
