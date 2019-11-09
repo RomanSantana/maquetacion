@@ -48,3 +48,35 @@ header{
 			  }
 
 
+
+/*-----------------aqui trabajaremos el footer------------------------------------*/
+footer{
+	background-color: #252525;
+
+}
+.rellenofooter{
+	background-color: #252525;
+	padding-bottom: 80px;
+}
+	    #linea{
+		border-top: 1px solid #f1f5f7;  
+		width: 70% ;
+	}
+/*------------------------------insetamos logo y simbolo de copyright---------------------*/
+		.img-footer{
+			padding:30px 8%;
+		}
+/*--------------------------------acomodamos los links del footer----------------*/
+			.lista-orden{
+				padding: 30px 35px;
+			}
+/**---------------------------- acomodamos redes sociales---------------------------*/
+				.twitter{
+					color:white;
+					margin-right: 15px;
+				}
+				
+				.redes-sociales{
+					padding-top: 30px;
+				}
+
