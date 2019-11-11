@@ -1,92 +1,65 @@
 <!doctype html>
 <html lang="es">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" charset="utf-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
-
-	<script src="js/fontawesome.js"></script>
-
-
     <title>Hiit</title>
   </head>
   <body>
-  	<!--********************************************cabecera************************************************-->
-  	<header>	
-  		<div class="container">
-  			<div class="row">
-  				<div class="col-md-6" align="left">
-  					<img src="img/Logo_principal.png">
-  				</div>
-  				<div class="col-md-6 text-md-right text-white">
-  					<label >Acceso a clientes</label>
-  				</div>
-  			</div>
-  			<div class="row bar"></div>
+  	<!-- HEADER -->
+  	<header id="header">	
+		<div class="row header-row">
+			<div class="col-md-2"></div>
+			<div class="col-md-4">
+				<img src="img/Logo_principal.png" class="imgHeaderIcon">
+			</div>
+			<div class="col-md-2 offset-md-2 text-md-right text-white">
+				<!--Navbar-->
+				<nav class="navbar navbar-light light-blue lighten-4">
+					
+						<!-- Collapse button -->
+						<button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+						aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+					
+						<!-- Collapsible content -->
+						<div class="collapse navbar-collapse" id="navbarSupportedContent1">
+					
+						<!-- Links -->
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item active">
+							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#acceso-clientes">Acceso a clientes</a>
+							</li>
+						</ul>
+						<!-- Links -->
+					
+						</div>
+						<!-- Collapsible content -->
+					
+					</nav>
+					<!--/.Navbar-->
+				<span class="txt-header-center"><a href="#acceso-clientes">Acceso a clientes</a></span>
+			</div>
   		</div>
   	</header>
-  		<div class="container-fluid">
-  			<div class="row">
-  				<div class="card bg-dark text-white">
-				  <img class="card-img" src="img/Compu.png" >
-				  <div class="card-img-overlay">
+	<!-- /HEADER -->
 
-				  	<div class="col-md-6 card-text">
-				  		<p class="card-text al-text-img" align="left">Controla tu <br> centro deportivo </p>
-				  	
-				  		<p class="card-text al-text-img2" align="left">Control total de tus clases, ingresos, <br>alumnos y maestros en tiempo real desde <br> cualquier dispositivo. </p>
-				  		<br>
-					  	<div class="card-text" id="button" >
-				 			<a class="btn card-text text-white" >INICIA GRATIS</a>
-					  	</div> 
-				  	</div>
-				  </div>
-				</div>
-  			</div>
-  		</div>
-  	<!--********************************************fin cabecera************************************************-->
+  	<!-- BODY -->
+  	<!-- /BODY -->
 
-  	<!--********************************************inicio cuerpo************************************************-->
-  	<!--********************************************fin cuerpo************************************************-->
-
-  	<!--********************************************inicio footer************************************************-->
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3 img-footer">
-  					<img src="img/Group3.png">
-  					<br>
-  					<label class="text-white">© 2017</label>
-  				</div>
-  				<div class="col-md-3" >
-  					<ul class="list-group lista-orden">
-					  <a class="text-white">Acerca de nosotros</a>
-					  <a class="text-white">contacto@hiit.com</a>
-					  <a class="text-white">Aviso de privacidad</a>
-					</ul>
-  				</div>
-  				<div class="col-md-6">
-  					<ul class="list-group text-center redes-sociales">
-					  <a class="text-white">Acceso a clientes > </a>
-					  <a class="text-white"><i class="fab fa-facebook-f" ><kbd>  Facebook </i> </a> 
-					  <a class="text-white"><i class="fab fa-twitter twitter">&nbsp;<kbd>Twiter</i></a>
-
-					</ul>
-  				</div>
-			</div>	
-		</div>
-		<hr id="linea">	
-		<div class="rellenofooter">	</div>
-
-	</footer>
-  	<!--********************************************fin footer************************************************-->
-
-    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	<!-- FOOTER -->
+	<!-- /FOOTER -->
+	  
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
    
   </body>
 </html>
